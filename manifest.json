@@ -1,0 +1,13 @@
+{
+  "name": "MalCal",
+  "version": "1.0",
+  "description": "Calander view of currently watching MAL shows.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://myanimelist.net/animelist/*"],
+      "css": ["MalCal.css"],
+      "js": ["MalCal.js"]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.watchlist-grid-container {
+  display: grid;
+  grid-template-columns: minmax(100px, 13%) minmax(100px, 13%) minmax(100px, 13%) minmax(100px, 13%) minmax(100px, 13%) minmax(100px, 13%) minmax(100px, 13%);
+  justify-content: space-evenly;
+  color: rgb(29, 67, 155);
+}
+
+@media screen and (max-width: 800px) {
+  .watchlist-grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: space-evenly;
+  }
+}
+
+.watchlist-grid-container h4 {
+  font-size: 1.2em;
+}
+
+.watchlist-grid-item {
+  justify-self: center;
+  grid-row-gap: .75em;
+}
+
+.watchlist-grid-item h4 {
+  text-align: center;
+}
+
+.watchlist-day-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.show-element h5 {
+  margin: 1em 0 1em 0;
+}
+
+.show-element h6 {
+  text-align: left;
+  margin: .35em 0 .35em 0;
+}
+
